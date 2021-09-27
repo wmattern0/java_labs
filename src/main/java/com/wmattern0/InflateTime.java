@@ -32,7 +32,7 @@ String filename = "time.ser";
      ex.printStackTrace();
    }
    // print out restored time
-   System.out.println("Flattened time: " + time.getTime());
+   System.out.println("Flattened time: " + time.getTime() + "\n Thread: " + time.getThread());
    System.out.println();
       // print out the current time
    System.out.println("Current time: " + Calendar.getInstance().getTime());
