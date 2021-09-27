@@ -9,7 +9,7 @@ public class FlattenTime{
             filename = args[0];
         }
         TransientTime time = new TransientTime();
-        System.out.println("writing out from FlattenTime: " + time.getTime());
+        System.out.println("writing out from FlattenTime: " + time.getTime() + "\n Thread: " + time.getThread());
         FileOutputStream fos = null;
         ObjectOutputStream oos = null;
         try {
